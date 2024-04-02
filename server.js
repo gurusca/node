@@ -10,7 +10,7 @@ const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
 const app = express();
 
-const indexpath = path.resolve(__dirname + '/src/index.html');
+const indexpath = path.resolve(__dirname + '/public/index.html');
 
 app.use(express.static('public'));
 
